@@ -54,22 +54,22 @@ The report contains saved query results. Written explanations and many headline 
 
 ### 1. Which sellers have made no sale in the last 90 days?
 
-![Dashboard Overview](Screenshots\sellers.png)
+![Dashboard Overview](Screenshots/sellers.png)
 
 This identifies sellers who may need attention and provides a starting point for investigating inactivity. It can help prioritize seller outreach, but the result depends on a clearly defined cutoff date and eligible seller base. The current analysis is at seller level; it does not measure unsold inventory or inactive products.
 
 ### 2. Is order cycle time improving, and where is time being spent?
-![ocv](Screenshots\ocv.png)
+![ocv](Screenshots/ocv.png)
 
 Order cycle time measures the customer's wait from purchase to delivery. Breaking it into approval, seller handover and delivery stages helps locate delays. The monthly trend shows whether performance is improving consistently or whether particular periods need investigation.
 
 ### 3. Where do the slowest orders lose the most time?
-![worst ocv](Screenshots\ocv_worst.png)
+![worst ocv](Screenshots/ocv_worst.png)
 
 Averages can hide long waits. Comparing stage times for the slowest orders with the overall baseline helps identify where severe delays build up. The current report compares a stored slowest-5% aggregate with the baseline; the average within that group should be distinguished from the 95th-percentile cutoff itself.
 
 ### 4. Are cancellations concentrated among particular sellers?
-![cancellation](Screenshots\cancellation.png)
+![cancellation](Screenshots/cancellation.png)
 
 Cancellation rates show how often orders fail to go through. Looking at rates alongside cancellation counts and order volume helps identify sellers worth reviewing. A high rate based on very few orders needs more context before drawing conclusions about reliability.
 
