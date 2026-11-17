@@ -54,29 +54,37 @@ The report contains saved query results. Written explanations and many headline 
 
 ### 1. Which sellers have made no sale in the last 90 days?
 
+![Dashboard Overview](Screenshots\sellers.png)
+
 This identifies sellers who may need attention and provides a starting point for investigating inactivity. It can help prioritize seller outreach, but the result depends on a clearly defined cutoff date and eligible seller base. The current analysis is at seller level; it does not measure unsold inventory or inactive products.
 
 ### 2. Is order cycle time improving, and where is time being spent?
+![ocv](Screenshots\ocv.png)
 
 Order cycle time measures the customer's wait from purchase to delivery. Breaking it into approval, seller handover and delivery stages helps locate delays. The monthly trend shows whether performance is improving consistently or whether particular periods need investigation.
 
 ### 3. Where do the slowest orders lose the most time?
+![worst ocv](Screenshots\ocv_worst.png)
 
 Averages can hide long waits. Comparing stage times for the slowest orders with the overall baseline helps identify where severe delays build up. The current report compares a stored slowest-5% aggregate with the baseline; the average within that group should be distinguished from the 95th-percentile cutoff itself.
 
 ### 4. Are cancellations concentrated among particular sellers?
+![cancellation](Screenshots\cancellation.png)
 
 Cancellation rates show how often orders fail to go through. Looking at rates alongside cancellation counts and order volume helps identify sellers worth reviewing. A high rate based on very few orders needs more context before drawing conclusions about reliability.
 
 ### 5. How is GMV changing over time?
+![gmv](Screenshots/aov_gmv.png)
 
 Gross merchandise value (GMV) tracks the value of transactions included in the analysis. Monthly comparisons show changes in marketplace activity and provide context for the other metrics. Incomplete years and boundary months need care when comparing periods.
 
 ### 6. Does sales growth come from more orders or larger baskets?
+![aov](Screenshots/aov_gmv.png)
 
 Reading average order value (AOV), GMV and order volume together helps explain changes in sales. This can guide further investigation into customer acquisition, product mix and basket size. Across multiple months, AOV should be calculated from total value divided by total orders, rather than by summing monthly averages.
 
 ### 7. How many customers return, and does repeat purchasing differ by first-order value?
+![repeat_purchase](Screenshots/repeat_purchase.png)
 
 The report compares observed repeat customers across low-, medium- and high-first-order-value segments. These differences can guide further retention analysis, but customers need comparable time to return. Purchase frequency and time between purchases would add useful detail beyond the repeat-customer counts shown here.
 
@@ -92,4 +100,4 @@ The next steps are to reconcile the SQL outputs, document metric definitions, da
 
 ## Contact
 
-<!-- [Linkedin](https://www.linkedin.com/in/arjun-jat-981216252/), jatarjun123@gmail.com -->
+[Linkedin](https://www.linkedin.com/in/arjun-jat-981216252/), jatarjun123@gmail.com
